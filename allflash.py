@@ -22,7 +22,7 @@ def blink(pin1, pin2, pin3, pin4):
     time.sleep(0.5)
 
 for i in range(0,10):
-    blink(18)
+    blink(18, 23, 24, 25)
 
 
 GPIO.cleanup()
