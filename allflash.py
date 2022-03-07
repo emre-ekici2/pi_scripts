@@ -12,9 +12,9 @@ def blink(pin):
 
 for i in range(0,10):
     blink(18)
-    blink(17)
-    blink(16)
-    blink(15)
+    blink(23)
+    blink(24)
+    blink(25)
 
 GPIO.cleanup()
 print("Program executed")
